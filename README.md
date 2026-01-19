@@ -59,8 +59,8 @@ The tracking system simulates how real logistics companies allow customers to ch
 .
 ├── index.html        # Main website
 ├── style.css         # Global styles
-├── script.js         # Shipment tracking logic
-├── Images/           # Assets & logos
+├── script.js         # Shipment tracking
+├── js/               # Data
 └── README.md
 ```
 
