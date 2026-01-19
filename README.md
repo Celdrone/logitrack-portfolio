@@ -106,11 +106,6 @@ This project demonstrates:
 * Real-time updates
 * Automation-ready architecture for future AI features
 
----
-
-## 📄 License
-
-This project is for **educational and portfolio purposes**.
 
 ---
 
