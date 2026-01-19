@@ -107,12 +107,7 @@ This project demonstrates:
 * DOM manipulation & event handling
 * UI consistency & branding
 * Readiness for backend integration
-
-Ideal for:
-
-* Frontend developer portfolios
 * Logistics / supply chain demos
-* Internship or junior developer applications
 
 ---
 
