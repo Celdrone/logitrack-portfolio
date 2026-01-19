@@ -2,7 +2,7 @@
 
 A **professional logistics company website** with an integrated **shipment tracking system**, built using **HTML, CSS, and Vanilla JavaScript**.
 
-This project is designed as a **portfolio showcase** and a **realistic logistics company demo**, suitable for GitHub Pages deployment.
+This project is designed as a **portfolio showcase** and a **realistic logistics company demo**
 
 ---
 
