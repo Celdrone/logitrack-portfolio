@@ -117,7 +117,7 @@ This project is for **educational and portfolio purposes**.
 ## 👤 Author
 
 **Mikhael Moniaga**
-Frontend Developer (Portfolio Project)
+(Portfolio Project)
 
 ---
 
