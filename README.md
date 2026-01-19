@@ -35,7 +35,7 @@ The tracking system simulates how real logistics companies allow customers to ch
 * Services overview (Land, Sea, Air, Warehousing)
 * Company statistics
 * Call-to-action section
-* Responsive layout
+* Responsive layout (Still figuring out mobile layout)
 
 ### 📦 Shipment Tracking
 
@@ -75,19 +75,6 @@ Use the following tracking number to test the system:
 TX-1001
 ```
 
-*(You can add more shipments in `script.js`)*
-
----
-
-## 🚀 Deployment (GitHub Pages)
-
-1. Push this repository to GitHub
-2. Go to **Settings → Pages**
-3. Select **Branch: main** and **/root**
-4. Save and open the generated URL
-
-The website will be live in seconds.
-
 ---
 
 ## 🛠 Built With
@@ -95,7 +82,6 @@ The website will be live in seconds.
 * HTML5
 * CSS3 (Flexbox & Grid)
 * Vanilla JavaScript
-* Google Fonts (Inter)
 
 ---
 
@@ -115,7 +101,7 @@ This project demonstrates:
 ## 🔮 Possible Improvements
 
 * Admin dashboard for updating shipment status
-* Persistent storage using `localStorage`
+* Storage using `localStorage`
 * Authentication for staff
 * Backend API integration
 * Real-time updates
