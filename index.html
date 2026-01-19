@@ -1,43 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LogiTrack | Track Shipment</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT. Tarakan Express | Logistics Solutions</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>🚚 LogiTrack</h1>
-  <p>Shipment Tracking System</p>
+
+<!-- ================= NAVBAR ================= -->
+<header class="header">
+  <div class="container nav">
+    <div class="logo">
+      <span>PT.Tarakan Express</span>
+    </div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <a href="#" class="btn small">Track Shipment</a>
+    </nav>
+  </div>
 </header>
 
-<main class="card">
-  <h2>Track Your Shipment</h2>
-  <div class="track-form">
-    <input id="trackingInput" placeholder="Tracking ID (LX-204981)" />
-    <button onclick="trackShipment()">Track</button>
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="container hero-content">
+
+    <div class="hero-text">
+      <h1>Reliable & Fast Logistics Solutions</h1>
+      <p>
+        We deliver your goods safely, on time, and nationwide.
+        Trusted logistics partner for businesses across Indonesia.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#" class="btn primary">Our service</a>
+        <a href="#tracking" class="btn outline">Track Shipment</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="Images/PT.Tarakan_express_logo only.svg" alt="Logistics Illustration">
+    </div>
+
   </div>
+</section>
 
-  <div id="result" class="hidden">
-    <p><strong>Status:</strong> <span id="status"></span></p>
-    <p><strong>From:</strong> <span id="from"></span></p>
-    <p><strong>To:</strong> <span id="to"></span></p>
-    <p><strong>ETA:</strong> <span id="eta"></span></p>
+<!-- ================= TRACKING ================= -->
+<section id="tracking" class="tracking">
+  <div class="container">
+    <h2>Track Your Shipment</h2>
 
-    <div class="timeline">
-      <div class="step" id="s1">Created</div>
-      <div class="step" id="s2">Picked Up</div>
-      <div class="step" id="s3">In Transit</div>
-      <div class="step" id="s4">Out for Delivery</div>
-      <div class="step" id="s5">Delivered</div>
+    <form class="tracking-form" onsubmit="trackShipment(event)">
+      <input
+        type="text"
+        id="trackingInput"
+        placeholder="Enter Tracking Number (TX-1001)"
+        required
+      />
+      <button type="submit">Track</button>
+    </form>
+
+    <!-- Tracking Result -->
+    <div id="trackingResult" class="tracking-result hidden">
+      <p><strong>Status:</strong> <span id="statusText"></span></p>
+      <p><strong>From:</strong> <span id="from"></span></p>
+      <p><strong>To:</strong> <span id="to"></span></p>
+      <p><strong>ETA:</strong> <span id="eta"></span></p>
+
+      <div class="timeline">
+        <div class="step" id="s1">Created</div>
+        <div class="step" id="s2">Picked Up</div>
+        <div class="step" id="s3">In Transit</div>
+        <div class="step" id="s4">Out for Delivery</div>
+        <div class="step" id="s5">Delivered</div>
+      </div>
     </div>
   </div>
-</main>
+</section>
 
-<footer>© 2026 LogiTrack</footer>
 
-<script src="js/data.js"></script>
-<script src="js/tracking.js"></script>
+<!-- ================= SERVICES ================= -->
+<section class="services">
+  <div class="container">
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Land Transportation</h3>
+        <p>Fast and reliable land delivery across cities and provinces.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Sea Freight</h3>
+        <p>Cost-effective shipping solutions for large cargo.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Air Freight</h3>
+        <p>Express air delivery for urgent shipments.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Warehousing</h3>
+        <p>Secure storage and inventory management services.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY US ================= -->
+<section class="why-us">
+  <div class="container">
+    <h2>Why Choose Tarakan Express</h2>
+
+    <div class="why-grid">
+      <div class="why-item">🚚 Fast & On-Time Delivery</div>
+      <div class="why-item">🛡️ Secure Handling</div>
+      <div class="why-item">🌍 Nationwide Coverage</div>
+      <div class="why-item">📞 24/7 Customer Support</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div><strong>10+</strong><span>Years Experience</span></div>
+    <div><strong>50+</strong><span>Cities Covered</span></div>
+    <div><strong>10K+</strong><span>Shipments Delivered</span></div>
+    <div><strong>500+</strong><span>Business Clients</span></div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta">
+  <div class="container">
+    <h2>Ready to Ship With Confidence?</h2>
+    <a href="#" class="btn primary">Contact Us Today</a>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <div>
+      <h3>Tarakan Express</h3>
+      <p>Your trusted logistics partner.</p>
+    </div>
+
+    <div>
+      <h4>Company</h4>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>Email: info@tarakanexpress.com</p>
+      <p>Phone: +62 812-0000-0000</p>
+    </div>
+
+  </div>
+  <p class="copyright">
+    © 2026 PT. Tarakan Express. All rights reserved.
+  </p>
+</footer>
+
 </body>
 </html>
