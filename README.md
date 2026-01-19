@@ -119,6 +119,7 @@ This project demonstrates:
 * Authentication for staff
 * Backend API integration
 * Real-time updates
+* Automation-ready architecture for future AI features
 
 ---
 
