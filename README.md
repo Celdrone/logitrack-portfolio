@@ -33,7 +33,6 @@ The tracking system simulates how real logistics companies allow customers to ch
 
 * Professional hero section
 * Services overview (Land, Sea, Air, Warehousing)
-* Company statistics
 * Call-to-action section
 * Responsive layout (Still figuring out mobile layout)
 
