@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin | LogiTrack</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header><h1>Admin Dashboard</h1></header>
+
+<main class="card">
+  <h2>Update Shipment Status</h2>
+
+  <select id="shipmentSelect"></select>
+
+  <select id="statusSelect">
+    <option value="1">Created</option>
+    <option value="2">Picked Up</option>
+    <option value="3">In Transit</option>
+    <option value="4">Out for Delivery</option>
+    <option value="5">Delivered</option>
+  </select>
+
+  <button onclick="updateStatus()">Update</button>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
