@@ -16,7 +16,7 @@ Live demo deployed using **GitHub Pages**.
 
 ## 📌 Project Overview
 
-PT. Tarakan Express is a mock logistics company website that demonstrates:
+This is a mock logistics company website that demonstrates:
 
 * Corporate landing page design
 * Shipment tracking workflow
