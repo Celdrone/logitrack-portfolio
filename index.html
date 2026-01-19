@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LogiTrack | Track Shipment</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header>
+  <h1>🚚 LogiTrack</h1>
+  <p>Shipment Tracking System</p>
+</header>
+
+<main class="card">
+  <h2>Track Your Shipment</h2>
+  <div class="track-form">
+    <input id="trackingInput" placeholder="Tracking ID (LX-204981)" />
+    <button onclick="trackShipment()">Track</button>
+  </div>
+
+  <div id="result" class="hidden">
+    <p><strong>Status:</strong> <span id="status"></span></p>
+    <p><strong>From:</strong> <span id="from"></span></p>
+    <p><strong>To:</strong> <span id="to"></span></p>
+    <p><strong>ETA:</strong> <span id="eta"></span></p>
+
+    <div class="timeline">
+      <div class="step" id="s1">Created</div>
+      <div class="step" id="s2">Picked Up</div>
+      <div class="step" id="s3">In Transit</div>
+      <div class="step" id="s4">Out for Delivery</div>
+      <div class="step" id="s5">Delivered</div>
+    </div>
+  </div>
+</main>
+
+<footer>© 2026 LogiTrack</footer>
+
+<script src="js/data.js"></script>
+<script src="js/tracking.js"></script>
+</body>
+</html>
