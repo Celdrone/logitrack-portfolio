@@ -1,4 +1,4 @@
-# 🚚 PT. Tarakan Express – Logistics Tracking Website
+# PT. Tarakan Express – Logistics Tracking Website
 
 A **professional logistics company website** with an integrated **shipment tracking system**, built using **HTML, CSS, and Vanilla JavaScript**.
 
